@@ -11,6 +11,10 @@
 
 `npm install`
 
+- Download all non-development dependencies referenced in package.json
+
+`npm install --production`
+
 - Download a given dependency required for the application to run, and add it to the package.json:
 
 `npm install {{module_name}}@{{version}} --save`
